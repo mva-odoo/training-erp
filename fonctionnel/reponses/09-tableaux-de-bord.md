@@ -1,10 +1,10 @@
-# Réponses — Chapitre 6 : Tableaux de bord et analyses
+# Réponses — Chapitre 9 : Tableaux de bord et analyses
 
-[⬅ Retour au chapitre](../06-tableaux-de-bord.md)
+[⬅ Retour au chapitre](../09-tableaux-de-bord.md)
 
 ---
 
-## Exercice 6.1
+## Exercice 9.1
 
 **Le graphique des ventes.**
 
@@ -29,7 +29,7 @@ Ce sont les mêmes données, mais pas la même question.
 
 ---
 
-## Exercice 6.2
+## Exercice 9.2
 
 **Le pivot.**
 
@@ -46,7 +46,7 @@ C'est ce qui rend le pivot d'Odoo plus utile qu'un export Excel figé.
 
 ---
 
-## Exercice 6.3
+## Exercice 9.3
 
 **Encours clients.**
 
@@ -61,7 +61,7 @@ C'est ce qui rend le pivot d'Odoo plus utile qu'un export Excel figé.
 
 ---
 
-## Exercice 6.4
+## Exercice 9.4
 
 **Lire les tableaux de bord.**
 
@@ -89,7 +89,7 @@ Ce n'est pas une erreur : les deux analyses ne mesurent pas la même chose.
 | Date utilisée | Date de **commande** | Date de **facture** |
 | Commandes pas encore facturées | ✅ Comptées | ❌ Pas encore |
 | Avoirs | ❌ Pas déduits | ✅ Déduits |
-| Factures sans commande (exercice 3.3) | ❌ Absentes | ✅ Comptées |
+| Factures sans commande (exercice 4.3) | ❌ Absentes | ✅ Comptées |
 | Ventes en boutique (Point de Vente) | Selon l'analyse (souvent séparées) | ✅ Si facturées / comptabilisées |
 
 Exemple : une commande du 28 octobre livrée et facturée le 3 novembre est dans le CA **d'octobre** côté Ventes,
@@ -100,7 +100,7 @@ est un indicateur commercial, plus réactif. Il faut savoir lequel on regarde, e
 
 ---
 
-## Exercice 6.5
+## Exercice 9.5
 
 **Le tableau de bord du lundi.**
 
@@ -125,4 +125,4 @@ impossible : c'est pour ça qu'on pense au **reporting** dès l'analyse des beso
 
 ---
 
-[⬅ Retour au chapitre](../06-tableaux-de-bord.md)
+[⬅ Retour au chapitre](../09-tableaux-de-bord.md)

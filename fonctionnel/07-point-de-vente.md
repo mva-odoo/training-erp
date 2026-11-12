@@ -1,6 +1,6 @@
 # Chapitre 7 — Point de vente
 
-[⬅ Chapitre 6](06-tableaux-de-bord.md) · [Sommaire](README.md) · [Chapitre 8 ➡](08-rh.md)
+[⬅ Chapitre 6](06-ecommerce.md) · [Sommaire](README.md) · [Chapitre 8 ➡](08-rh.md)
 
 ## Objectifs
 
@@ -209,7 +209,7 @@ Quelles sont les causes possibles ?
 une facture, un remboursement). Puis, côté back-office :
 1. Quel est le chiffre d'affaires de la journée, par moyen de paiement ?
 2. Quel produit s'est le mieux vendu ?
-3. Le stock du site web (chapitre 5) a-t-il été impacté par les ventes en boutique ? Pourquoi ?
+3. Le stock du site web (chapitre 6) a-t-il été impacté par les ventes en boutique ? Pourquoi ?
 
 👉 [Réponse commentée](reponses/07-point-de-vente.md#exercice-76)
 
@@ -235,4 +235,4 @@ une facture, un remboursement). Puis, côté back-office :
 
 ---
 
-[⬅ Chapitre 6](06-tableaux-de-bord.md) · [Sommaire](README.md) · [Chapitre 8 ➡](08-rh.md)
+[⬅ Chapitre 6](06-ecommerce.md) · [Sommaire](README.md) · [Chapitre 8 ➡](08-rh.md)

@@ -1,6 +1,6 @@
-# Chapitre 4 — Site web
+# Chapitre 5 — Site web
 
-[⬅ Chapitre 3](03-facturation.md) · [Sommaire](README.md) · [Chapitre 5 ➡](05-ecommerce.md)
+[⬅ Chapitre 4](04-facturation.md) · [Sommaire](README.md) · [Chapitre 6 ➡](06-ecommerce.md)
 
 ## Objectifs
 
@@ -61,7 +61,7 @@ On travaille ainsi :
 > 💡 Un site se construit avec des **blocs prêts à l'emploi**, pas en partant d'une page blanche.
 > C'est la même logique que l'ERP : on part du standard et on adapte.
 
-### ✍️ À vous — Exercice 4.1
+### ✍️ À vous — Exercice 5.1
 
 **La page d'accueil de Torréfaction Sablon.** Remplacez le contenu par défaut par :
 
@@ -74,16 +74,16 @@ On travaille ainsi :
 - [ ] Après **Sauvegarder**, la page s'affiche correctement en navigation privée.
 - [ ] L'aperçu 📱 mobile est lisible.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-41)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-51)
 
-### ✍️ À vous — Exercice 4.2
+### ✍️ À vous — Exercice 5.2
 
 **Le thème.** Dans l'onglet **Thème** :
 1. Ajoutez le logo de l'entreprise (n'importe quelle image fera l'affaire).
 2. Choisissez une palette de couleurs brunes, « café ».
 3. Changez la police des titres.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-42)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-52)
 
 ---
 
@@ -103,7 +103,7 @@ Le menu du site se modifie avec **Site → Éditeur de menu** (ou en éditant le
 
 ![Les menus du site](images/w-menus.png)
 
-### ✍️ À vous — Exercice 4.3
+### ✍️ À vous — Exercice 5.3
 
 **Deux nouvelles pages.**
 
@@ -115,7 +115,7 @@ Le menu du site se modifie avec **Site → Éditeur de menu** (ou en éditant le
 - [ ] Les deux pages sont accessibles depuis le menu, en navigation privée.
 - [ ] L'URL de la première page est bien `/notre-histoire`.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-43)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-53)
 
 ---
 
@@ -127,17 +127,17 @@ La page **Contactez-nous** contient un formulaire :
 
 Où arrive le message d'un visiteur ? Ça dépend des applications installées :
 - **sans CRM** : un e-mail est envoyé à l'adresse de la société ;
-- **avec CRM** : une **piste** (*lead*) est créée dans le CRM, avec le nom, l'e-mail et le message du visiteur.
+- **avec CRM** : une **piste** (*lead*) est créée dans le CRM ([chapitre 2](02-crm.md)), avec le nom, l'e-mail et le message du visiteur.
 
 En mode édition, cliquez sur le formulaire : dans l'onglet de droite, l'option **Action** indique ce que fait le formulaire
 (envoyer un e-mail, créer une piste, créer un candidat…).
 
-### ✍️ À vous — Exercice 4.4
+### ✍️ À vous — Exercice 5.4
 
 En navigation privée, envoyez un message via le formulaire de contact : « Je voudrais réserver un atelier pour 6 personnes ».
 Retrouvez ce message dans Odoo.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-44)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-54)
 
 ---
 
@@ -154,11 +154,11 @@ Pour être bien classé dans Google, chaque page a besoin de :
 
 Sur la page affichée : **Site → Cette page → Optimisation SEO**.
 
-### ✍️ À vous — Exercice 4.5
+### ✍️ À vous — Exercice 5.5
 
 Optimisez le SEO de la page d'accueil et de la page *Notre histoire*.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-45)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-55)
 
 ---
 
@@ -179,17 +179,17 @@ Optimisez le SEO de la page d'accueil et de la page *Notre histoire*.
 connectée. Mais un client lui dit qu'il ne la trouve pas, et quand elle envoie le lien à une amie, celle-ci obtient une erreur 404.
 Donnez au moins deux causes possibles et comment les vérifier.
 
-👉 [Explication](reponses/04-site-web.md#enquête)
+👉 [Explication](reponses/05-site-web.md#enquête)
 
 ---
 
-## 🏁 Défi du chapitre — Exercice 4.6
+## 🏁 Défi du chapitre — Exercice 5.6
 
 **Réserver un atelier.** Sur la page *Nos ateliers*, ajoutez un **formulaire** « Réserver un atelier » avec : nom, e-mail,
 téléphone, date souhaitée, nombre de personnes. Les demandes doivent arriver dans le **CRM**, avec le nombre de personnes
 visible dans la piste. Testez-le en navigation privée.
 
-👉 [Réponse commentée](reponses/04-site-web.md#exercice-46)
+👉 [Réponse commentée](reponses/05-site-web.md#exercice-56)
 
 ---
 
@@ -211,4 +211,4 @@ visible dans la piste. Testez-le en navigation privée.
 
 ---
 
-[⬅ Chapitre 3](03-facturation.md) · [Sommaire](README.md) · [Chapitre 5 ➡](05-ecommerce.md)
+[⬅ Chapitre 4](04-facturation.md) · [Sommaire](README.md) · [Chapitre 6 ➡](06-ecommerce.md)

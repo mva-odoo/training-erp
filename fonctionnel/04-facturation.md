@@ -1,6 +1,6 @@
-# Chapitre 3 — Facturation
+# Chapitre 4 — Facturation
 
-[⬅ Chapitre 2](02-stock.md) · [Sommaire](README.md) · [Chapitre 4 ➡](04-site-web.md)
+[⬅ Chapitre 3](03-stock.md) · [Sommaire](README.md) · [Chapitre 5 ➡](05-site-web.md)
 
 ## Objectifs
 
@@ -52,7 +52,7 @@ Chaque produit porte une **taxe de vente** et une **taxe d'achat** par défaut (
 Elles calculent la **date d'échéance** d'une facture : immédiat, 30 jours, fin du mois suivant, 30 % maintenant et le solde à 60 jours…
 On les définit par client (fiche contact, onglet **Ventes & Achats**) ou sur chaque facture.
 
-### ✍️ À vous — Exercice 3.1
+### ✍️ À vous — Exercice 4.1
 
 **Configurer Torréfaction Sablon.**
 
@@ -63,7 +63,7 @@ On les définit par client (fiche contact, onglet **Ventes & Achats**) ou sur ch
 **Pour vérifier :**
 - [ ] Une nouvelle commande pour Café du Sablon reprend automatiquement la condition « 30 jours fin de mois ».
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-31)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-41)
 
 ---
 
@@ -92,9 +92,9 @@ Une facture en **brouillon** n'a pas de numéro et peut être modifiée libremen
 
 > ⚠️ Une facture comptabilisée est un **document légal**. On ne la supprime pas : on la corrige avec un **avoir**.
 
-### ✍️ À vous — Exercice 3.2
+### ✍️ À vous — Exercice 4.2
 
-**Facturer le Café du Sablon.** Reprenez la commande de l'exercice 2.3 (10 Brésil, 15 Éthiopie, livrée en partie).
+**Facturer le Café du Sablon.** Reprenez la commande de l'exercice 3.3 (10 Brésil, 15 Éthiopie, livrée en partie).
 
 1. Cliquez sur **Créer une facture**. Que propose Odoo ? Pourquoi ?
 2. Confirmez la facture et envoyez-la par e-mail.
@@ -103,7 +103,7 @@ Une facture en **brouillon** n'a pas de numéro et peut être modifiée libremen
 - [ ] La facture a un numéro `FAC/2026/…`.
 - [ ] La commande affiche un bouton intelligent **Facture** et le statut de facturation adéquat.
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-32)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-42)
 
 ### Une facture sans commande
 
@@ -111,12 +111,12 @@ Pour une prestation ponctuelle, on crée directement la facture : **Clients → 
 
 ![Une nouvelle facture en brouillon](images/f-nouvelle-facture.png)
 
-### ✍️ À vous — Exercice 3.3
+### ✍️ À vous — Exercice 4.3
 
 **L'atelier dégustation.** Le restaurant **Le Petit Sablon** a réservé un atelier dégustation pour 8 personnes.
 Créez et confirmez la facture, **sans** passer par une commande.
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-33)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-43)
 
 ---
 
@@ -139,7 +139,7 @@ rapproché avec le relevé bancaire).
 
 ![La liste des factures clients](images/f-factures.png)
 
-### ✍️ À vous — Exercice 3.4
+### ✍️ À vous — Exercice 4.4
 
 **Le Café du Sablon paie en deux fois.**
 
@@ -150,7 +150,7 @@ rapproché avec le relevé bancaire).
 - [ ] Après le premier versement, la facture est **Partiellement payé** et le montant dû a diminué.
 - [ ] Après le second, elle est **Payé** (ou **En paiement**).
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-34)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-44)
 
 ---
 
@@ -164,7 +164,7 @@ Un **avoir** (note de crédit) annule tout ou partie d'une facture comptabilisé
 | Le client renvoie **une partie** | Avoir partiel, en ne gardant que les lignes concernées |
 | Geste commercial | Avoir d'un montant libre |
 
-### ✍️ À vous — Exercice 3.5
+### ✍️ À vous — Exercice 4.5
 
 Le Café du Sablon a reçu **2 sacs de Café Brésil** abîmés et vous les renvoie. Faites-lui un avoir pour ces 2 sacs uniquement.
 
@@ -172,7 +172,7 @@ Le Café du Sablon a reçu **2 sacs de Café Brésil** abîmés et vous les renv
 - [ ] L'avoir est lié à la facture d'origine (référence `Annulation de : FAC/…`).
 - [ ] **Clients → Avoirs** le liste.
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-35)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-45)
 
 ---
 
@@ -193,15 +193,15 @@ quantités **reçues** et les prix. On compare ensuite avec la facture papier du
 > 🔒 La lecture automatique des factures PDF (OCR) est un service payant d'Odoo. En Community, on charge le PDF
 > (bouton **Charger**) pour l'avoir à côté, mais on saisit les lignes soi-même.
 
-### ✍️ À vous — Exercice 3.6
+### ✍️ À vous — Exercice 4.6
 
-Café Import Antwerpen vous envoie sa facture pour la commande de l'exercice 2.2.
+Café Import Antwerpen vous envoie sa facture pour la commande de l'exercice 3.2.
 Enregistrez-la depuis la commande fournisseur, puis payez-la.
 
 1. Combien de Café Éthiopie Odoo propose-t-il de facturer ? Pourquoi ?
 2. La facture papier mentionne 30 Café Éthiopie. Que faites-vous ?
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-36)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-46)
 
 ---
 
@@ -211,7 +211,7 @@ Enregistrez-la depuis la commande fournisseur, puis payez-la.
 
 ![L'analyse des factures](images/f-analyse.png)
 
-Les vues d'analyse (graphique, pivot) sont détaillées au [chapitre 6](06-tableaux-de-bord.md).
+Les vues d'analyse (graphique, pivot) sont détaillées au [chapitre 9](09-tableaux-de-bord.md).
 
 ---
 
@@ -220,11 +220,11 @@ Les vues d'analyse (graphique, pivot) sont détaillées au [chapitre 6](06-table
 **« Je ne peux plus modifier la facture ! »** Inès a confirmé une facture avec une faute dans l'adresse du client.
 Tous les champs sont maintenant grisés. Elle veut « juste corriger l'adresse ». Que lui conseillez-vous ?
 
-👉 [Explication](reponses/03-facturation.md#enquête)
+👉 [Explication](reponses/04-facturation.md#enquête)
 
 ---
 
-## 🏁 Défi du chapitre — Exercice 3.7
+## 🏁 Défi du chapitre — Exercice 4.7
 
 **La facturation mensuelle.** Le restaurant **Le Petit Sablon** commande chaque semaine.
 Il veut **une seule facture par mois**, avec toutes ses livraisons du mois.
@@ -233,7 +233,7 @@ Il veut **une seule facture par mois**, avec toutes ses livraisons du mois.
 2. Générez **une seule** facture pour les trois.
 3. Quel réglage du client garantit qu'il recevra toujours ses factures à 30 jours fin de mois ?
 
-👉 [Réponse commentée](reponses/03-facturation.md#exercice-37)
+👉 [Réponse commentée](reponses/04-facturation.md#exercice-47)
 
 ---
 
@@ -257,4 +257,4 @@ Il veut **une seule facture par mois**, avec toutes ses livraisons du mois.
 
 ---
 
-[⬅ Chapitre 2](02-stock.md) · [Sommaire](README.md) · [Chapitre 4 ➡](04-site-web.md)
+[⬅ Chapitre 3](03-stock.md) · [Sommaire](README.md) · [Chapitre 5 ➡](05-site-web.md)

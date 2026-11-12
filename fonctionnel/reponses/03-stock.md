@@ -1,10 +1,10 @@
-# Réponses — Chapitre 2 : Stock
+# Réponses — Chapitre 3 : Stock
 
-[⬅ Retour au chapitre](../02-stock.md)
+[⬅ Retour au chapitre](../03-stock.md)
 
 ---
 
-## Exercice 2.1
+## Exercice 3.1
 
 **Le catalogue.**
 
@@ -30,7 +30,7 @@ La catégorie sert à **regrouper** (analyses, listes de prix, règles de stock)
 
 ---
 
-## Exercice 2.2
+## Exercice 3.2
 
 **Première livraison du fournisseur.**
 
@@ -54,13 +54,13 @@ La commande serait alors considérée comme entièrement traitée pour cette lig
 
 ---
 
-## Exercice 2.3
+## Exercice 3.3
 
 **Le Café du Sablon commande.**
 
 1. **Ventes → Nouveau** : client *Café du Sablon* (créez-le), lignes 10 × Brésil, 15 × Éthiopie. **Confirmer**.
 2. Le bouton intelligent **Livraison** ouvre `WH/OUT/0000x`. Son état est **Prêt** si tout est disponible…
-   mais il n'y a que **20** Éthiopie (exercice 2.2) : 15 sont disponibles, donc la livraison est **Prête**.
+   mais il n'y a que **20** Éthiopie (exercice 3.2) : 15 sont disponibles, donc la livraison est **Prête**.
 
    > Si vous avez reçu moins, ou si une autre commande a réservé du stock avant, l'état peut être **En attente**.
    > La colonne de disponibilité sur chaque ligne indique ce qui est réservé.
@@ -68,12 +68,12 @@ La commande serait alors considérée comme entièrement traitée pour cette lig
 3. Pour livrer en deux fois : dans la livraison, mettez les quantités **réellement expédiées**, **Valider** →
    **Créer un reliquat**. Le reliquat sera livré plus tard, avec sa propre validation.
 
-**Lien avec la facturation (chapitre 3) :** si la politique de facturation du produit est « Quantités livrées »,
+**Lien avec la facturation (chapitre 4) :** si la politique de facturation du produit est « Quantités livrées »,
 la commande ne peut être facturée que pour ce qui a été **livré**.
 
 ---
 
-## Exercice 2.4
+## Exercice 3.4
 
 **La réserve et la boutique.**
 
@@ -96,7 +96,7 @@ rebut, ajustement) modifient le total.
 
 ---
 
-## Exercice 2.5
+## Exercice 3.5
 
 **Corriger le stock.**
 
@@ -119,7 +119,7 @@ ce qui intéresse beaucoup le gérant.
 
 ---
 
-## Exercice 2.6
+## Exercice 3.6
 
 **Réapprovisionnement automatique.**
 
@@ -147,7 +147,7 @@ Le **planificateur** (une tâche planifiée, exécutée chaque nuit) détecte qu
 
 **« Le stock ne bouge pas ! »**
 
-Ce n'est pas un bug : le **Sac kraft** a été créé **sans suivi de l'inventaire** (exercice 2.1).
+Ce n'est pas un bug : le **Sac kraft** a été créé **sans suivi de l'inventaire** (exercice 3.1).
 Odoo crée quand même une **livraison** (pour savoir ce qui a été expédié au client), mais il ne tient **aucune quantité
 en stock** pour ce produit : pas de quantité disponible, pas de ligne dans **Analyse → Stock**, pas d'inventaire.
 
@@ -167,14 +167,14 @@ Si l'entreprise veut finalement suivre les sacs, il faut cocher **Suivre l'inven
 
 ---
 
-## Exercice 2.7
+## Exercice 3.7
 
 **Défi : vente plus grande que le stock.**
 
 1. **Commande client** : 30 × Café Éthiopie → **Confirmer**. La livraison est **En attente** (ou partiellement disponible :
    10 réservés).
 2. **Livrer les 10 disponibles** : dans la livraison, quantité 10 → **Valider** → **Créer un reliquat** (20 restants).
-3. **Recommander** : si la règle de l'exercice 2.6 existe pour l'Éthiopie (sinon, créez-la), le **Réassort** propose une
+3. **Recommander** : si la règle de l'exercice 3.6 existe pour l'Éthiopie (sinon, créez-la), le **Réassort** propose une
    commande. Sinon, créez une commande fournisseur manuelle. Confirmez-la.
 4. **Recevoir** : validez la réception du fournisseur. Le reliquat de livraison passe automatiquement à **Prêt**
    (Odoo réserve le stock arrivé pour les livraisons en attente).
@@ -186,4 +186,4 @@ Variante pour la gérante : depuis la fiche produit, bouton intelligent **Entré
 
 ---
 
-[⬅ Retour au chapitre](../02-stock.md)
+[⬅ Retour au chapitre](../03-stock.md)

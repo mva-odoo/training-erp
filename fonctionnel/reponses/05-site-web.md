@@ -1,10 +1,10 @@
-# Réponses — Chapitre 4 : Site web
+# Réponses — Chapitre 5 : Site web
 
-[⬅ Retour au chapitre](../04-site-web.md)
+[⬅ Retour au chapitre](../05-site-web.md)
 
 ---
 
-## Exercice 4.1
+## Exercice 5.1
 
 **La page d'accueil.**
 
@@ -26,7 +26,7 @@ Vérification mobile : bouton 📱 dans la barre du haut. Les colonnes doivent s
 
 ---
 
-## Exercice 4.2
+## Exercice 5.2
 
 **Le thème.**
 
@@ -45,7 +45,7 @@ Le **Thème** définit une seule fois l'identité visuelle, et tous les blocs, p
 
 ---
 
-## Exercice 4.3
+## Exercice 5.3
 
 **Deux nouvelles pages.**
 
@@ -64,7 +64,7 @@ connectés, mais donne une erreur 404 aux visiteurs.
 
 ---
 
-## Exercice 4.4
+## Exercice 5.4
 
 **Retrouver le message.**
 
@@ -81,7 +81,7 @@ répondre au prospect sans aucune ressaisie.
 
 ---
 
-## Exercice 4.5
+## Exercice 5.5
 
 **SEO.**
 
@@ -116,7 +116,7 @@ les pages non publiées (avec un bandeau). **Testez toujours en navigation priv�
 
 ---
 
-## Exercice 4.6
+## Exercice 5.6
 
 **Réserver un atelier.**
 
@@ -140,4 +140,4 @@ l'opportunité. Ils sont donc visibles, mais pas filtrables.
 
 ---
 
-[⬅ Retour au chapitre](../04-site-web.md)
+[⬅ Retour au chapitre](../05-site-web.md)

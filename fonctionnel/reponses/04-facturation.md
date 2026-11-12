@@ -1,10 +1,10 @@
-# Réponses — Chapitre 3 : Facturation
+# Réponses — Chapitre 4 : Facturation
 
-[⬅ Retour au chapitre](../03-facturation.md)
+[⬅ Retour au chapitre](../04-facturation.md)
 
 ---
 
-## Exercice 3.1
+## Exercice 4.1
 
 **Configurer Torréfaction Sablon.**
 
@@ -34,7 +34,7 @@ donc on ne l'oublie plus.
 
 ---
 
-## Exercice 3.2
+## Exercice 4.2
 
 **Facturer le Café du Sablon.**
 
@@ -57,7 +57,7 @@ L'envoi est noté dans le chatter de la facture. C'est une preuve utile en cas d
 
 ---
 
-## Exercice 3.3
+## Exercice 4.3
 
 **L'atelier dégustation.**
 
@@ -73,7 +73,7 @@ Total : 8 × 35 € = 280 € HTVA, + 21 % = **338,80 € TVAC**.
 
 ---
 
-## Exercice 3.4
+## Exercice 4.4
 
 **Paiement en deux fois.**
 
@@ -90,7 +90,7 @@ C'est une sécurité : on considère la facture réellement payée seulement qua
 
 ---
 
-## Exercice 3.5
+## Exercice 4.5
 
 **Avoir partiel.**
 
@@ -111,7 +111,7 @@ le montant dû par le client diminue. Si la facture était déjà payée, l'avoi
 
 ---
 
-## Exercice 3.6
+## Exercice 4.6
 
 **Facture fournisseur.**
 
@@ -120,7 +120,7 @@ le montant dû par le client diminue. Si la facture était déjà payée, l'avoi
 ### 1. Combien de Café Éthiopie ?
 
 Odoo propose **20**, pas 30 : la politique de contrôle des achats est par défaut **« Quantités reçues »**.
-On ne paie que ce qui a été réceptionné (exercice 2.2 : 20 reçus, 10 en reliquat).
+On ne paie que ce qui a été réceptionné (exercice 3.2 : 20 reçus, 10 en reliquat).
 
 ### 2. La facture papier mentionne 30
 
@@ -155,7 +155,7 @@ Le chatter de la facture garde la trace de la remise en brouillon et de qui l'a 
 
 ---
 
-## Exercice 3.7
+## Exercice 4.7
 
 **La facturation mensuelle.**
 
@@ -165,11 +165,11 @@ Le chatter de la facture garde la trace de la remise en brouillon et de qui l'a 
    Par défaut, Odoo regroupe les commandes **d'un même client** dans **une seule** facture.
    Vérifiez que la facture contient bien les lignes des trois commandes, chacune avec sa référence de commande.
 3. Le réglage : **conditions de paiement** par défaut sur la fiche du client (onglet **Ventes & Achats**),
-   comme à l'exercice 3.1.
+   comme à l'exercice 4.1.
 
 > En pratique, on fait cette opération chaque fin de mois pour tous les clients à facturation mensuelle :
 > filtre « À facturer », regroupement par client, sélection de tout, **Créer des factures**.
 
 ---
 
-[⬅ Retour au chapitre](../03-facturation.md)
+[⬅ Retour au chapitre](../04-facturation.md)

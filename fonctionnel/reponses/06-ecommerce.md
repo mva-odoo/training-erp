@@ -1,10 +1,10 @@
-# Réponses — Chapitre 5 : eCommerce
+# Réponses — Chapitre 6 : eCommerce
 
-[⬅ Retour au chapitre](../05-ecommerce.md)
+[⬅ Retour au chapitre](../06-ecommerce.md)
 
 ---
 
-## Exercice 5.1
+## Exercice 6.1
 
 **Mettre en ligne les cafés.**
 
@@ -30,7 +30,7 @@ Un même café peut être dans les catégories eCommerce *Cafés* **et** *Idées
 
 ---
 
-## Exercice 5.2
+## Exercice 6.2
 
 **Variantes de mouture.**
 
@@ -54,7 +54,7 @@ Un même café peut être dans les catégories eCommerce *Cafés* **et** *Idées
 
 ---
 
-## Exercice 5.3
+## Exercice 6.3
 
 **Livraison et paiement.**
 
@@ -82,7 +82,7 @@ Le bandeau « Activez un fournisseur de paiement » disparaît des paramètres d
 
 ---
 
-## Exercice 5.4
+## Exercice 6.4
 
 **Première commande en ligne.**
 
@@ -107,7 +107,7 @@ Odoo ne peut pas savoir si l'argent est arrivé. La commande n'est pas encore co
 ### À retenir
 
 Le visiteur n'a rien saisi dans « Ventes » : il a utilisé le site. Pourtant on retrouve exactement les mêmes documents
-qu'aux chapitres 2 et 3 : commande, livraison, facture, paiement. C'est l'intérêt de l'eCommerce **intégré**.
+qu'aux chapitres 3 et 4 : commande, livraison, facture, paiement. C'est l'intérêt de l'eCommerce **intégré**.
 
 ---
 
@@ -127,7 +127,7 @@ Et toujours : **testez en navigation privée**. Un administrateur connecté voit
 
 ---
 
-## Exercice 5.5
+## Exercice 6.5
 
 **Défi : le stock en ligne.**
 
@@ -146,4 +146,4 @@ Et toujours : **testez en navigation privée**. Un administrateur connecté voit
 
 ---
 
-[⬅ Retour au chapitre](../05-ecommerce.md)
+[⬅ Retour au chapitre](../06-ecommerce.md)

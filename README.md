@@ -7,7 +7,7 @@ Il a deux parties complémentaires :
 
 | Partie | Vous apprenez à… | Version |
 |---|---|---|
-| **[Partie fonctionnelle](#partie-fonctionnelle)** | **utiliser** et configurer les applications d'Odoo : stock, facturation, site web, caisse, RH… | Odoo 19 Community |
+| **[Partie fonctionnelle](#partie-fonctionnelle)** | **utiliser** et configurer les applications d'Odoo : CRM, stock, facturation, site web, caisse, RH… | Odoo 19 Community |
 | **[Partie technique](#partie-technique)** | **développer** un module Odoo : modèles, vues, sécurité, rapports… | Odoo 18 |
 
 On commence par **comprendre ce qu'Odoo fait déjà** (partie fonctionnelle), avant de **développer ce qui manque** (partie technique).
@@ -43,19 +43,20 @@ cherchez dans les applications standard.
 > **Odoo 19 Community.** Les fonctions réservées à l'édition Enterprise sont signalées par 🔒.
 
 Tous les exercices suivent la même entreprise fictive, **Torréfaction Sablon**, un torréfacteur bruxellois
-qui vend du café aux restaurants, sur son site web et dans sa boutique.
+qui prospecte les restaurants, et vend son café sur son site web et dans sa boutique.
 [Présentation complète du fil rouge](fonctionnel/README.md).
 
 | # | Chapitre | Vous saurez… |
 |---|---|---|
 | 1 | [Odoo en général](fonctionnel/01-odoo-general.md) | installer Odoo, naviguer, rechercher, filtrer, configurer la société et les utilisateurs |
-| 2 | [Stock](fonctionnel/02-stock.md) | gérer les produits, les réceptions, les livraisons, les emplacements et le réassort |
-| 3 | [Facturation](fonctionnel/03-facturation.md) | facturer, encaisser, gérer les avoirs, les factures fournisseurs et les taxes |
-| 4 | [Site web](fonctionnel/04-site-web.md) | créer et modifier les pages d'un site, gérer les menus et le référencement |
-| 5 | [eCommerce](fonctionnel/05-ecommerce.md) | publier des produits, configurer la boutique, suivre les commandes en ligne |
-| 6 | [Tableaux de bord](fonctionnel/06-tableaux-de-bord.md) | analyser avec les vues graphique et pivot, les favoris et les tableaux de bord |
+| 2 | [CRM et ventes](fonctionnel/02-crm.md) | suivre les prospects dans un pipeline, transformer une opportunité en devis signé en ligne |
+| 3 | [Stock](fonctionnel/03-stock.md) | gérer les produits, les réceptions, les livraisons, les emplacements et le réassort |
+| 4 | [Facturation](fonctionnel/04-facturation.md) | facturer, encaisser, gérer les avoirs, les factures fournisseurs et les taxes |
+| 5 | [Site web](fonctionnel/05-site-web.md) | créer et modifier les pages d'un site, gérer les menus et le référencement |
+| 6 | [eCommerce](fonctionnel/06-ecommerce.md) | publier des produits, configurer la boutique, suivre les commandes en ligne |
 | 7 | [Point de vente](fonctionnel/07-point-de-vente.md) | configurer une caisse, vendre en boutique, clôturer une session |
 | 8 | [Ressources humaines](fonctionnel/08-rh.md) | gérer les employés, les congés, le recrutement, les dépenses et les présences |
+| 9 | [Tableaux de bord](fonctionnel/09-tableaux-de-bord.md) | analyser avec les vues graphique et pivot, les favoris et les tableaux de bord |
 
 [Réponses commentées de la partie fonctionnelle](fonctionnel/reponses/)
 

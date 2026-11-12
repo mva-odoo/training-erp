@@ -1,6 +1,6 @@
-# Chapitre 2 — Stock
+# Chapitre 3 — Stock
 
-[⬅ Chapitre 1](01-odoo-general.md) · [Sommaire](README.md) · [Chapitre 3 ➡](03-facturation.md)
+[⬅ Chapitre 2](02-crm.md) · [Sommaire](README.md) · [Chapitre 4 ➡](04-facturation.md)
 
 ## Objectifs
 
@@ -62,7 +62,7 @@ L'onglet **Inventaire** contient la logistique : poids, volume, délai de livrai
 En haut, les **boutons intelligents** donnent la quantité **disponible**, la quantité **prévue**
 (en tenant compte des achats et ventes à venir), et l'historique des entrées et sorties.
 
-### ✍️ À vous — Exercice 2.1
+### ✍️ À vous — Exercice 3.1
 
 **Le catalogue de Torréfaction Sablon.** Créez ces produits :
 
@@ -80,7 +80,7 @@ Rangez les trois cafés dans une catégorie de produits **Café**.
 - [ ] Les trois cafés affichent « Disponible : 0,00 » en haut de leur fiche.
 - [ ] Le sac kraft et l'atelier n'ont **pas** de bouton de quantité disponible.
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-21)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-31)
 
 ---
 
@@ -101,7 +101,7 @@ Une réception passe par les états **Brouillon → Prêt → Terminé**. Le bou
 est arrivée. Si la quantité reçue est inférieure à la quantité commandée, Odoo propose de créer un **reliquat**
 (*backorder*) pour le reste.
 
-### ✍️ À vous — Exercice 2.2
+### ✍️ À vous — Exercice 3.2
 
 **Première livraison du fournisseur.**
 
@@ -119,7 +119,7 @@ est arrivée. Si la quantité reçue est inférieure à la quantité commandée,
 Dans la réception, colonne **Quantité** : remplacez 30 par 20 avant de cliquer sur **Valider**.
 </details>
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-22)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-32)
 
 ---
 
@@ -131,7 +131,7 @@ De la même façon, une **commande client** confirmée crée une **livraison** :
 
 La livraison est **Prête** si le stock est suffisant, **En attente** sinon. Valider la livraison fait sortir le stock.
 
-### ✍️ À vous — Exercice 2.3
+### ✍️ À vous — Exercice 3.3
 
 **Le Café du Sablon commande.**
 
@@ -139,7 +139,7 @@ La livraison est **Prête** si le stock est suffisant, **En attente** sinon. Val
 2. Confirmez. Quel est l'état de la livraison ? Pourquoi ?
 3. Livrez ce qui est disponible maintenant, et le reste plus tard.
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-23)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-33)
 
 ---
 
@@ -170,7 +170,7 @@ Les emplacements apparaissent dans **Configuration → Gestion de l'entrepôt �
 
 Ensuite, un **transfert interne** déplace des produits d'un emplacement à l'autre.
 
-### ✍️ À vous — Exercice 2.4
+### ✍️ À vous — Exercice 3.4
 
 **La réserve et la boutique.** Torréfaction Sablon stocke ses sacs dans une **réserve**, et une partie en **boutique**.
 
@@ -182,7 +182,7 @@ Ensuite, un **transfert interne** déplace des produits d'un emplacement à l'au
 - [ ] **Analyse → Stock**, regroupé par emplacement, montre la répartition.
 - [ ] Le stock **total** du produit n'a pas changé.
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-24)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-34)
 
 ---
 
@@ -200,12 +200,12 @@ La réalité finit toujours par différer de l'ordinateur : casse, vol, erreur d
 Dans l'inventaire physique, on saisit la quantité **comptée** ; Odoo calcule la **différence** et, avec **Appliquer**,
 crée un mouvement depuis ou vers l'emplacement virtuel « Ajustement d'inventaire ».
 
-### ✍️ À vous — Exercice 2.5
+### ✍️ À vous — Exercice 3.5
 
-1. Au comptage, il y a **48** Café Brésil au lieu de 50 (après les livraisons de l'exercice 2.3, adaptez). Corrigez.
+1. Au comptage, il y a **48** Café Brésil au lieu de 50 (après les livraisons de l'exercice 3.3, adaptez). Corrigez.
 2. Un paquet de Café Maison moulu est tombé et s'est ouvert : mettez-le au rebut.
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-25)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-35)
 
 ---
 
@@ -221,14 +221,14 @@ Pour qu'Odoo crée lui-même une demande de prix, le produit doit avoir :
 1. un **fournisseur** (onglet **Achats** du produit) ;
 2. la route **Acheter** (onglet **Inventaire**).
 
-### ✍️ À vous — Exercice 2.6
+### ✍️ À vous — Exercice 3.6
 
 Le Café Brésil ne doit jamais descendre sous **20 kg**. En dessous, on recommande pour remonter à **80 kg**,
 chez Café Import Antwerpen, à 11 € le kg.
 
 Configurez-le, puis vendez assez de Café Brésil pour passer sous le minimum. Que se passe-t-il ?
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-26)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-36)
 
 ---
 
@@ -238,19 +238,19 @@ Configurez-le, puis vendez assez de Café Brésil pour passer sous le minimum. Q
 pour les sacs et l'a validée. Mais la quantité en stock des sacs n'apparaît nulle part, et la gérante voudrait savoir
 combien il en reste. Karim pense qu'Odoo est « buggé ». Qu'en pensez-vous ?
 
-👉 [Explication](reponses/02-stock.md#enquête)
+👉 [Explication](reponses/03-stock.md#enquête)
 
 ---
 
-## 🏁 Défi du chapitre — Exercice 2.7
+## 🏁 Défi du chapitre — Exercice 3.7
 
-Un client commande 30 Café Éthiopie alors que vous n'en avez que 10 (après l'exercice 2.3).
+Un client commande 30 Café Éthiopie alors que vous n'en avez que 10 (après l'exercice 3.3).
 Il accepte une livraison en deux fois. Organisez tout le flux pour qu'à la fin :
 - le client ait reçu ses 30 sacs ;
 - le fournisseur ait été recommandé automatiquement ;
 - vous puissiez montrer à la gérante l'historique complet des mouvements de ce produit.
 
-👉 [Réponse commentée](reponses/02-stock.md#exercice-27)
+👉 [Réponse commentée](reponses/03-stock.md#exercice-37)
 
 ---
 
@@ -273,4 +273,4 @@ Il accepte une livraison en deux fois. Organisez tout le flux pour qu'à la fin 
 
 ---
 
-[⬅ Chapitre 1](01-odoo-general.md) · [Sommaire](README.md) · [Chapitre 3 ➡](03-facturation.md)
+[⬅ Chapitre 2](02-crm.md) · [Sommaire](README.md) · [Chapitre 4 ➡](04-facturation.md)

@@ -1,6 +1,6 @@
 # Chapitre 1 — Odoo en général
 
-[⬅ Sommaire](README.md) · [Chapitre 2 ➡](02-stock.md)
+[⬅ Sommaire](README.md) · [Chapitre 2 ➡](02-crm.md)
 
 ## Objectifs
 
@@ -84,7 +84,7 @@ On passe d'une application à l'autre avec le menu en haut à gauche (l'icône e
 ### ✍️ À vous — Exercice 1.1
 
 **Installer les applications de Torréfaction Sablon.**
-Dans votre base `sablon` (sans démo), installez : **Ventes**, **Inventaire**, **Facturation**, **Achats**,
+Dans votre base `sablon` (sans démo), installez : **CRM**, **Ventes**, **Inventaire**, **Facturation**, **Achats**,
 **Site Web**, **eCommerce**, **Point de Vente**, **Employés**.
 
 1. Quelles applications supplémentaires sont apparues dans le menu ? Pourquoi ?
@@ -104,7 +104,7 @@ Chaque application affiche ses données dans plusieurs **vues**, qu'on choisit a
 | **Kanban** | Des cartes, souvent par étape | Pipeline CRM, candidats |
 | **Formulaire** | Le détail d'un enregistrement | Une commande |
 | **Calendrier** | Ce qui a une date | Congés, rendez-vous |
-| **Graphique / Pivot** | Analyser | Chapitre 6 |
+| **Graphique / Pivot** | Analyser | Chapitre 9 |
 
 ![Une vue liste : les commandes clients](images/g-liste-commandes.png)
 
@@ -264,4 +264,4 @@ les commandes confirmées du mois en cours, regroupées par vendeur, visible par
 
 ---
 
-[⬅ Sommaire](README.md) · [Chapitre 2 ➡](02-stock.md)
+[⬅ Sommaire](README.md) · [Chapitre 2 ➡](02-crm.md)

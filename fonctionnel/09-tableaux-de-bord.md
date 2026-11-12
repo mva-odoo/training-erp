@@ -1,6 +1,6 @@
-# Chapitre 6 — Tableaux de bord et analyses
+# Chapitre 9 — Tableaux de bord et analyses
 
-[⬅ Chapitre 5](05-ecommerce.md) · [Sommaire](README.md) · [Chapitre 7 ➡](07-point-de-vente.md)
+[⬅ Chapitre 8](08-rh.md) · [Sommaire](README.md)
 
 ## Objectifs
 
@@ -27,6 +27,7 @@ Chaque application a un menu **Analyse** :
 
 | Application | Menu | Question typique |
 |---|---|---|
+| CRM | Analyse → Pipeline | Combien de ventes en préparation ? Quel taux de transformation ? |
 | Ventes | Analyse → Ventes | Quel chiffre d'affaires par mois, par vendeur, par produit ? |
 | Facturation | Analyse → Gestion → Analyse des factures | Combien a-t-on réellement facturé ? À qui ? |
 | Inventaire | Analyse → Stock / Analyse des mouvements | Quelle valeur de stock ? Quels produits bougent le plus ? |
@@ -49,7 +50,7 @@ Chaque application a un menu **Analyse** :
 | **Empilé** | Icône dans la barre du graphique, quand il y a deux regroupements |
 | **Période** | Recherche → filtre de date |
 
-### ✍️ À vous — Exercice 6.1
+### ✍️ À vous — Exercice 9.1
 
 Dans la base de démo, avec **Ventes → Analyse → Ventes** :
 
@@ -57,7 +58,7 @@ Dans la base de démo, avec **Ventes → Analyse → Ventes** :
 2. Ajoutez un second regroupement **par vendeur**, en barres **empilées**.
 3. Quel vendeur a vendu le plus le mois dernier ?
 
-👉 [Réponse commentée](reponses/06-tableaux-de-bord.md#exercice-61)
+👉 [Réponse commentée](reponses/09-tableaux-de-bord.md#exercice-91)
 
 ---
 
@@ -72,14 +73,14 @@ Le **pivot** croise deux dimensions dans un tableau, comme un tableau croisé dy
 - Boutons de la barre : **inverser** lignes et colonnes, **tout déplier**, **télécharger en Excel** (`.xlsx`).
 - Cliquez sur une **cellule** : Odoo ouvre la liste des enregistrements qui la composent.
 
-### ✍️ À vous — Exercice 6.2
+### ✍️ À vous — Exercice 9.2
 
 Construisez un pivot : **clients** en lignes, **catégories de produit** en colonnes, mesures **Montant HT** et
 **Quantité commandée**. Téléchargez-le en Excel.
 
 Cliquez ensuite sur la cellule la plus élevée : quelles commandes la composent ?
 
-👉 [Réponse commentée](reponses/06-tableaux-de-bord.md#exercice-62)
+👉 [Réponse commentée](reponses/09-tableaux-de-bord.md#exercice-92)
 
 ---
 
@@ -106,13 +107,13 @@ on choisit les colonnes, et Odoo génère un fichier Excel.
 > 💡 L'export est pratique pour un calcul ponctuel. Mais si on exporte la même chose chaque semaine,
 > c'est qu'il manque un **favori** ou un tableau de bord. L'objectif d'un ERP est que les chiffres soient dans l'ERP.
 
-### ✍️ À vous — Exercice 6.3
+### ✍️ À vous — Exercice 9.3
 
 1. Dans **Facturation → Clients → Factures**, affichez les factures **non payées**, regroupées par **client**,
    et enregistrez-les en favori partagé « Encours clients ».
 2. Exportez cette liste avec les colonnes : client, numéro, date d'échéance, montant dû.
 
-👉 [Réponse commentée](reponses/06-tableaux-de-bord.md#exercice-63)
+👉 [Réponse commentée](reponses/09-tableaux-de-bord.md#exercice-93)
 
 ---
 
@@ -132,7 +133,7 @@ Le filtre de **période** en haut s'applique à tout le tableau.
 
 Un clic sur une valeur ou un graphique ouvre les enregistrements correspondants.
 
-### ✍️ À vous — Exercice 6.4
+### ✍️ À vous — Exercice 9.4
 
 Dans le tableau de bord **Ventes** :
 1. Quel est le panier moyen (commande moyenne) sur les 90 derniers jours ? Est-il en hausse ou en baisse ?
@@ -141,7 +142,7 @@ Dans le tableau de bord **Ventes** :
 Dans le tableau de bord **Facturation** :
 3. Que signifie l'indicateur **DMP** ? Pourquoi un dirigeant le surveille-t-il ?
 
-👉 [Réponse commentée](reponses/06-tableaux-de-bord.md#exercice-64)
+👉 [Réponse commentée](reponses/09-tableaux-de-bord.md#exercice-94)
 
 ---
 
@@ -169,11 +170,11 @@ Un tableau de bord n'a de valeur que s'il aide à **décider**. Quelques indicat
 **Ventes → Analyse** (42 000 €) et dans **Facturation → Analyse des factures** (38 500 €).
 Elle pense qu'il y a une erreur dans Odoo. Quelles sont les explications possibles ?
 
-👉 [Explication](reponses/06-tableaux-de-bord.md#enquête)
+👉 [Explication](reponses/09-tableaux-de-bord.md#enquête)
 
 ---
 
-## 🏁 Défi du chapitre — Exercice 6.5
+## 🏁 Défi du chapitre — Exercice 9.5
 
 **Le tableau de bord du lundi.** Chaque lundi, la gérante de Torréfaction Sablon veut voir en 5 minutes :
 1. les ventes de la semaine passée, par canal (site web, boutique, restaurants) ;
@@ -183,7 +184,7 @@ Elle pense qu'il y a une erreur dans Odoo. Quelles sont les explications possibl
 
 Préparez-lui ces quatre analyses en **favoris partagés**, et expliquez en une phrase à quoi sert chacune.
 
-👉 [Réponse commentée](reponses/06-tableaux-de-bord.md#exercice-65)
+👉 [Réponse commentée](reponses/09-tableaux-de-bord.md#exercice-95)
 
 ---
 
@@ -206,4 +207,4 @@ Préparez-lui ces quatre analyses en **favoris partagés**, et expliquez en une 
 
 ---
 
-[⬅ Chapitre 5](05-ecommerce.md) · [Sommaire](README.md) · [Chapitre 7 ➡](07-point-de-vente.md)
+[⬅ Chapitre 8](08-rh.md) · [Sommaire](README.md)

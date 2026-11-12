@@ -14,7 +14,7 @@ Tous les exercices suivent la même entreprise fictive :
 
 > **Torréfaction Sablon** est un torréfacteur bruxellois. Il achète du café vert à des importateurs,
 > le torréfie, et vend des paquets de café en grains et moulu :
-> - à des **cafés et restaurants** (factures mensuelles) ;
+> - à des **cafés, restaurants et hôtels**, que sa responsable commerciale prospecte (factures mensuelles) ;
 > - sur son **site web** (boutique en ligne) ;
 > - dans sa **boutique** du Sablon (caisse enregistreuse).
 >
@@ -25,16 +25,20 @@ Chaque chapitre ajoute une brique. À la fin, vous aurez configuré tout le syst
 
 ## Chapitres
 
+L'ordre suit le parcours d'un client : il est **prospecté** (CRM), **livré** (Stock), **facturé** (Facturation),
+puis on vend aussi **en ligne** et **en boutique**. On termine par les **analyses**, qui exploitent tout le reste.
+
 | # | Chapitre | Vous saurez… |
 |---|---|---|
 | 1 | [Odoo en général](01-odoo-general.md) | installer Odoo, naviguer, rechercher, filtrer, configurer la société et les utilisateurs |
-| 2 | [Stock](02-stock.md) | gérer les produits, les réceptions, les livraisons, les emplacements et le réassort |
-| 3 | [Facturation](03-facturation.md) | facturer, encaisser, gérer les avoirs, les factures fournisseurs et les taxes |
-| 4 | [Site web](04-site-web.md) | créer et modifier les pages d'un site, gérer les menus et le référencement |
-| 5 | [eCommerce](05-ecommerce.md) | publier des produits, configurer la boutique, suivre les commandes en ligne |
-| 6 | [Tableaux de bord](06-tableaux-de-bord.md) | analyser les données avec les vues graphique, pivot, les filtres et les tableaux de bord |
+| 2 | [CRM et ventes](02-crm.md) | suivre les prospects dans un pipeline, transformer une opportunité en devis signé en ligne |
+| 3 | [Stock](03-stock.md) | gérer les produits, les réceptions, les livraisons, les emplacements et le réassort |
+| 4 | [Facturation](04-facturation.md) | facturer, encaisser, gérer les avoirs, les factures fournisseurs et les taxes |
+| 5 | [Site web](05-site-web.md) | créer et modifier les pages d'un site, gérer les menus et le référencement |
+| 6 | [eCommerce](06-ecommerce.md) | publier des produits, configurer la boutique, suivre les commandes en ligne |
 | 7 | [Point de vente](07-point-de-vente.md) | configurer une caisse, vendre en boutique, clôturer une session |
 | 8 | [Ressources humaines](08-rh.md) | gérer les employés, les congés, le recrutement, les dépenses et les présences |
+| 9 | [Tableaux de bord](09-tableaux-de-bord.md) | analyser avec les vues graphique et pivot, les favoris et les tableaux de bord |
 
 Les [réponses commentées](reponses/) expliquent chaque manipulation pas à pas.
 

@@ -1,6 +1,6 @@
-# Chapitre 5 — eCommerce
+# Chapitre 6 — eCommerce
 
-[⬅ Chapitre 4](04-site-web.md) · [Sommaire](README.md) · [Chapitre 6 ➡](06-tableaux-de-bord.md)
+[⬅ Chapitre 5](05-site-web.md) · [Sommaire](README.md) · [Chapitre 7 ➡](07-point-de-vente.md)
 
 ## Objectifs
 
@@ -18,7 +18,7 @@
 ## 1. Une boutique branchée sur l'ERP
 
 Une commande passée sur le site est une **commande client** comme une autre. Elle suit exactement le même chemin
-qu'aux chapitres 2 et 3 :
+qu'aux chapitres 3 et 4 :
 
 ```mermaid
 flowchart LR
@@ -62,7 +62,7 @@ Les produits de la boutique : **Site Web → eCommerce → Produits → Produits
 
 ![Les produits de la boutique](images/e-produits.png)
 
-### ✍️ À vous — Exercice 5.1
+### ✍️ À vous — Exercice 6.1
 
 **Mettre en ligne les cafés.**
 
@@ -74,7 +74,7 @@ Les produits de la boutique : **Site Web → eCommerce → Produits → Produits
 - [ ] En navigation privée, `/shop` affiche les trois cafés, et le filtre **Cafés** fonctionne.
 - [ ] Le sac kraft n'apparaît pas.
 
-👉 [Réponse commentée](reponses/05-ecommerce.md#exercice-51)
+👉 [Réponse commentée](reponses/06-ecommerce.md#exercice-61)
 
 ---
 
@@ -92,7 +92,7 @@ Sur le site, le visiteur choisit la variante sur la page du produit :
 
 ![Un produit avec des variantes et une fenêtre de configuration](images/e-ajout-panier.png)
 
-### ✍️ À vous — Exercice 5.2
+### ✍️ À vous — Exercice 6.2
 
 Le **Café Brésil 1 kg** existe en trois moutures : Grains, Espresso, Filtre. La mouture fine *Espresso*
 coûte **1 € de plus**. Configurez-le.
@@ -101,7 +101,7 @@ coûte **1 € de plus**. Configurez-le.
 - [ ] La page du produit propose les trois moutures, et le prix change en choisissant *Espresso*.
 - [ ] **Inventaire → Produits → Variantes de produit** liste trois variantes de Café Brésil.
 
-👉 [Réponse commentée](reponses/05-ecommerce.md#exercice-52)
+👉 [Réponse commentée](reponses/06-ecommerce.md#exercice-62)
 
 ---
 
@@ -134,7 +134,7 @@ d'avertissement et les visiteurs ne peuvent pas payer.
 
 Chaque fournisseur a un **mode test** pour faire des essais sans argent réel.
 
-### ✍️ À vous — Exercice 5.3
+### ✍️ À vous — Exercice 6.3
 
 **Livraison et paiement.**
 
@@ -143,7 +143,7 @@ Chaque fournisseur a un **mode test** pour faire des essais sans argent réel.
    - **Retrait en boutique** : gratuit.
 2. Activez le paiement par **virement bancaire**.
 
-👉 [Réponse commentée](reponses/05-ecommerce.md#exercice-53)
+👉 [Réponse commentée](reponses/06-ecommerce.md#exercice-63)
 
 ---
 
@@ -163,7 +163,7 @@ Chaque fournisseur a un **mode test** pour faire des essais sans argent réel.
 
 Depuis les paniers abandonnés, on peut envoyer un **e-mail de relance** au client : « Vous avez oublié quelque chose ? »
 
-### ✍️ À vous — Exercice 5.4
+### ✍️ À vous — Exercice 6.4
 
 **Votre première commande en ligne.** En navigation privée, comme un vrai client :
 
@@ -177,7 +177,7 @@ Depuis les paniers abandonnés, on peut envoyer un **e-mail de relance** au clie
 - [ ] La commande a une livraison validée et une facture payée.
 - [ ] Le stock de Café Brésil *Espresso* a diminué de 2.
 
-👉 [Réponse commentée](reponses/05-ecommerce.md#exercice-54)
+👉 [Réponse commentée](reponses/06-ecommerce.md#exercice-64)
 
 ---
 
@@ -187,11 +187,11 @@ Depuis les paniers abandonnés, on peut envoyer un **e-mail de relance** au clie
 description. Il le voit dans **Site Web → eCommerce → Produits**, mais les clients ne le trouvent pas sur `/shop`.
 Quelles sont les causes possibles ?
 
-👉 [Explication](reponses/05-ecommerce.md#enquête)
+👉 [Explication](reponses/06-ecommerce.md#enquête)
 
 ---
 
-## 🏁 Défi du chapitre — Exercice 5.5
+## 🏁 Défi du chapitre — Exercice 6.5
 
 **La gestion du stock en ligne.**
 
@@ -201,7 +201,7 @@ Quelles sont les causes possibles ?
 3. Videz le stock d'Éthiopie (inventaire physique) et vérifiez ce que voit le visiteur.
 4. Proposez le **Café Maison moulu** comme produit optionnel quand on ajoute un café en grains au panier.
 
-👉 [Réponse commentée](reponses/05-ecommerce.md#exercice-55)
+👉 [Réponse commentée](reponses/06-ecommerce.md#exercice-65)
 
 ---
 
@@ -223,4 +223,4 @@ Quelles sont les causes possibles ?
 
 ---
 
-[⬅ Chapitre 4](04-site-web.md) · [Sommaire](README.md) · [Chapitre 6 ➡](06-tableaux-de-bord.md)
+[⬅ Chapitre 5](05-site-web.md) · [Sommaire](README.md) · [Chapitre 7 ➡](07-point-de-vente.md)
