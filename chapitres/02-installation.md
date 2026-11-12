@@ -162,6 +162,12 @@ Avec [GitHub Desktop](https://desktop.github.com/download/) :
    ![Nouveau dépôt](../images/02-github-nouveau-depot.png)
 
 4. **Create repository**, puis **Publish repository**.
+   ⚠️ Gardez la case **Keep this code private** cochée : votre dépôt doit être **privé**.
+5. Sur GitHub, ouvrez votre dépôt → **Settings → Collaborators → Add people**
+   et invitez votre professeur (son nom d'utilisateur GitHub vous sera donné au cours).
+
+> Votre dépôt est privé pour que votre travail reste le vôtre. Le professeur y a accès pour suivre
+> votre avancement : il regarde vos commits, pas seulement le résultat final.
 
 En ligne de commande, c'est équivalent à :
 
@@ -181,7 +187,7 @@ git add . && git commit -m "Initial commit"
 **Pour vérifier :**
 - [ ] <http://127.0.0.1:8069> affiche la page de connexion d'Odoo.
 - [ ] Vous êtes connecté en tant qu'admin.
-- [ ] Votre dépôt `custom_addons` existe sur GitHub.
+- [ ] Votre dépôt `custom_addons` existe sur GitHub, il est **privé**, et le professeur y est invité.
 - [ ] Un fichier créé dans `custom_addons` sur votre machine apparaît dans le conteneur, dans `/home/odoo/src/custo`.
 
 <details><summary>💡 Indice : « port is already allocated »</summary>

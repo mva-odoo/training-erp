@@ -37,6 +37,11 @@ Lisez-le dans l'ordre des chapitres, un chapitre après l'autre.
 | 11 | [Contrôleurs et site web](chapitres/11-controleurs-site-web.md) | exposer des pages web |
 | 12 | [Wizards](chapitres/12-wizards.md) | créer des fenêtres d'assistant |
 
+## Partie fonctionnelle
+
+La [partie fonctionnelle](fonctionnel/README.md) (Odoo 19 Community) apprend à **utiliser** les applications :
+stock, facturation, site web, eCommerce, tableaux de bord, point de vente et ressources humaines.
+
 ## Réponses
 
 Les [réponses commentées](reponses/) de chaque chapitre expliquent entièrement le code :
