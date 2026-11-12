@@ -104,7 +104,7 @@ Utiles pour une opération ponctuelle ou une automatisation simple.
 ![Action serveur](../images/06-action-serveur.png)
 
 > 💡 Avant d'écrire un module, demandez-vous si une action serveur ou une **règle d'automatisation**
-> (application Studio / Automatisations) ne suffirait pas.
+> (**Paramètres → Technique → Automatisation**) ne suffirait pas.
 
 ---
 

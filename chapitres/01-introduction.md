@@ -162,7 +162,7 @@ Aucune installation n'est nécessaire côté utilisateur, et la maintenance se f
 | | Licence | Contenu |
 |---|---|---|
 | **Community Edition** | LGPLv3 (open source) | Le noyau et les fonctionnalités fondamentales |
-| **Enterprise Edition** | Propriétaire | Applications avancées, Studio, hébergement, support |
+| **Enterprise Edition** | Propriétaire | Applications avancées, hébergement, support |
 | **Modules communautaires** | LGPLv3 ou AGPLv3 | Modules développés par la communauté (ex. [OCA](https://github.com/OCA)) |
 
 ### Modes d'hébergement
@@ -172,7 +172,7 @@ Aucune installation n'est nécessaire côté utilisateur, et la maintenance se f
 | Hébergement | Cloud Odoo | Votre serveur | Cloud Odoo, flexible |
 | Installation | Prêt à l'emploi | Manuelle | Déploiement auto via Git |
 | Mises à jour | Automatiques | Manuelles | Automatiques sur branche stable |
-| Modules personnalisés | ❌ Non (Studio seulement) | ✅ Oui | ✅ Oui |
+| Modules personnalisés | ❌ Non | ✅ Oui | ✅ Oui |
 | Maintenance, sauvegardes | Incluses | À gérer soi-même | Incluses |
 | Accès au code | ❌ | ✅ | ✅ (dépôt Git) |
 

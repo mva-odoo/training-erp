@@ -1,6 +1,6 @@
 # Cours ERP — Partie fonctionnelle (Odoo 19 Community)
 
-[⬅ Cours technique](../README.md)
+[⬅ Accueil du cours](../README.md)
 
 Cette partie apprend à **utiliser** Odoo comme le ferait un client ou un consultant fonctionnel :
 configurer les applications, suivre les flux métiers, et comprendre ce qui se passe d'une application à l'autre.

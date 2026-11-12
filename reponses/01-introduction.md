@@ -64,7 +64,7 @@ Ce qu'on attend dans votre présentation : le **besoin métier** d'abord, les é
 
 1. **Boulangerie → Odoo Online (SaaS).**
    Pas de besoin spécifique, pas d'informaticien : il faut que ça marche sans maintenance.
-   Les mises à jour et les sauvegardes sont incluses. Si un besoin particulier apparaît, Studio suffit souvent.
+   Les mises à jour et les sauvegardes sont incluses.
 
 2. **PME avec modules sur mesure, sans équipe serveur → Odoo.sh.**
    Odoo Online n'accepte pas de modules Python personnalisés. On-Premise les accepterait, mais il faudrait

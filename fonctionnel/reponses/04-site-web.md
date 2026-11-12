@@ -134,8 +134,8 @@ Dans le CRM, l'opportunité contient le nom, l'e-mail et le téléphone dans leu
 (date, nombre de personnes) n'existent pas dans le modèle des opportunités : Odoo les ajoute dans la **description** de
 l'opportunité. Ils sont donc visibles, mais pas filtrables.
 
-> Pour pouvoir filtrer sur le nombre de personnes, il faudrait un vrai champ sur l'opportunité : c'est soit Studio 🔒,
-> soit… un petit module (cours technique, chapitre 7). C'est exactement le genre d'arbitrage « configuration ou
+> Pour pouvoir filtrer sur le nombre de personnes, il faudrait un vrai champ sur l'opportunité, donc
+> un petit module (cours technique, chapitre 7). C'est exactement le genre d'arbitrage « configuration ou
 > développement » qu'on fait dans un projet.
 
 ---

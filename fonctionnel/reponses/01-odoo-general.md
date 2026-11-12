@@ -23,7 +23,7 @@ C'est le principe de l'**ERP intégré** : les applications s'appuient les unes 
 
 ### 2. « Mettre à niveau »
 
-Les applications avec le bouton **Mettre à niveau** (Studio, Comptabilité complète, Paie, Signature…)
+Les applications avec le bouton **Mettre à niveau** (Comptabilité complète, Paie, Signature…)
 font partie de l'**édition Enterprise** 🔒. Le bouton propose de passer à cette édition payante.
 En Community, on ne peut pas les installer.
 
